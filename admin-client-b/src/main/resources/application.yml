@@ -1,11 +1,16 @@
 spring:
-  thymeleaf:
-    suffix: .html
-    mode: HTML5
-    encoding: UTF-8
-    cache: false
-    servlet:
-      content-type: text/html; charset=utf-8
+  application:
+    name: admin-client-b
+  boot:
+    admin:
+      client:
+        url: http://localhost:7070
 
 server:
   port: 8081
+
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: *

@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * homepage http://www.liumapp.com
  * date 2018/11/20
  */
-@SpringBootApplication(scanBasePackages = {"com.liumapp"})
+@SpringBootApplication
 public class AdminClientBMain {
 
     public static void main(String[] args) {
