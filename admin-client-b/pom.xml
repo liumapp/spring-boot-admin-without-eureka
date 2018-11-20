@@ -3,9 +3,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.5.6.RELEASE</version>
+    <groupId>com.liumapp.demo.admin</groupId>
+    <artifactId>spring-boot-admin-without-eureka</artifactId>
+    <version>v1.0.0</version>
   </parent>
 
   <groupId>com.liumapp.demo.admin.client.b</groupId>
@@ -13,37 +13,22 @@
   <version>v1.0.0</version>
   <packaging>jar</packaging>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <springboot.version>1.5.6.RELEASE</springboot.version>
-  </properties>
-
   <name>admin-client-b</name>
   <url>http://maven.apache.org</url>
 
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter</artifactId>
-      <version>${springboot.version}</version>
+      <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
-      <version>${springboot.version}</version>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-devtools</artifactId>
-      <version>${springboot.version}</version>
-      <optional>true</optional>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <version>${springboot.version}</version>
-      <scope>test</scope>
+      <groupId>de.codecentric</groupId>
+      <artifactId>spring-boot-admin-starter-client</artifactId>
+      <version>2.0.2</version>
     </dependency>
   </dependencies>
 
