@@ -34,4 +34,12 @@
 		<module>admin-client-b</module>
 		<module>admin-server</module>
 	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.liumapp.qtools.date</groupId>
+			<artifactId>qtools-date</artifactId>
+			<version>v1.2.6</version>
+		</dependency>
+	</dependencies>
 </project>
