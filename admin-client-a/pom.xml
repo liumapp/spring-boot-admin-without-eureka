@@ -3,20 +3,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-parent</artifactId>
-    <version>1.5.6.RELEASE</version>
+    <groupId>com.liumapp.demo.admin</groupId>
+    <artifactId>spring-boot-admin-without-eureka</artifactId>
+    <version>v1.0.0</version>
   </parent>
 
   <groupId>com.liumapp.demo.admin.client.a</groupId>
   <artifactId>admin-client-a</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <springboot.version>1.5.6.RELEASE</springboot.version>
-  </properties>
 
   <name>admin-client-a</name>
   <url>http://maven.apache.org</url>
