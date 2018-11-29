@@ -1,6 +1,20 @@
 # spring-boot-admin-without-eureka
 在Spring Boot Admin中手动注册其他服务，而不是使用Eureka来进行管理的案例项目
 
+## 如何使用
+
+* clone the project 
+
+* run admin-server
+
+* run admin-client-a
+
+* run admin-client-b
+
+* 在浏览器访问http://localhost:7070 
+
+* 用户名默认为admin， 密码为adminadmin
+
 ## 流程
 
 * 编写服务端和客户端基础代码
