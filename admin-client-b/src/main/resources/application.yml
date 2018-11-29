@@ -5,11 +5,8 @@ spring:
     admin:
       client:
         url: http://localhost:7070
-        instance:
-          metadata:
-            user:
-              name: admin
-              password: adminadmin
+        username: 'admin'
+        password: 'adminadmin'
 
 server:
   port: 8081
