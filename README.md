@@ -15,6 +15,24 @@
     
 * 配置admin-server的账号密码
 
-        
+    * 添加spring-boot-starter-security的依赖（服务端与客户端都需要）
     
+    * 配置SecuritySecureConfig，并设置Spring security的用户名与密码，具体见admin-server
+    
+* 配置admin-client在注册admin-server时，提交账户信息
+
+    * 在配置文件中加入以下内容即可
+    
+        spring:
+          boot:
+            admin:
+              client:
+                url: http://localhost:7070
+                username: 'admin'
+                password: 'adminadmin'        
+    
+        这里写的跟官方文档介绍的不同，经过实际测试，2.0.2版本的只有这样写才可以手动注册成功
+        
+        
+        
         
